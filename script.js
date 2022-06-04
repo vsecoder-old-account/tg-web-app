@@ -1,4 +1,4 @@
 let tg = window.Telegram.WebApp;
-let data = tg.initData;
+let data = tg.initDataUnsafe;
 
-document.querySelector('#data').innerHTML = data;
+document.querySelector('#paragraf').innerText = `Hi, ${data.user.first_name}!`;

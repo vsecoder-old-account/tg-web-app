@@ -9,3 +9,14 @@ button {
   background-color: var(--tg-theme-button-color);
   color: var(--tg-theme-button-text-color);
 }
+div {
+  text-align: center;
+}
+pre {
+  background-color: #343941;
+  color: white;
+  padding: .4em .6em;
+  border-radius: 6px;
+  text-align: left;
+  max-width: 200px;
+}
